@@ -1,0 +1,15 @@
+#sum of middle digits--------------normal method
+n=int(input()) #3
+l=input().split()[:n] #123 234 235
+print(l) #['123', '234', '235']
+s=0
+for i in l:
+    s+=int(i[1])
+print(s) #8
+
+------------------------------------------------------------------------------------
+
+#list comprehension type-----method 2
+print("enter numbers method 2")
+l=[int(i[len(i)//2]) for i in input().split(" ")]
+print(sum(l))
