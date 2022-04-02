@@ -4,6 +4,11 @@ numerical python
 array type of data
 mainly used for scientific computations
 array() is the sub module of numpy
+--------already lists sets araises still what is the need  of numpy library?--------------------------
+numpy executes more faster than lists,sets....
+for clear understanding...
+if an app developed using numpy...then it is more faster...and everybody uses it...
+if lists....it might be slower....so nobody uses app
 """
 #creating arrays using numpy.array()
 import numpy as n
@@ -20,7 +25,7 @@ print(list)
 set=(1,2,1,2)
 s=n.array(set)
 print(s)
-#[1 2 1 2]
+ #[1 2 1 2]
 dict={1:2,3:4,5:6}
 nd=n.array(dict)
 print(nd[1]) #throws an error
