@@ -1,0 +1,17 @@
+"""food ordering and billing code"""
+items=["idli","dosa","vada","poori","upma"]
+cost=[30,50,35,60,25]
+print("famouus items in this hotel are:")
+for i,j in zip(items,cost):
+    print(i,j,sep=":")
+print("place your order by spaces....")
+order=input().split(" ")
+bill=0
+for i in order:
+    if i in items:
+        ind=items.index(i)
+        bill+=cost[ind]
+    else:
+        print("item",i,"uyou have ordered is not available")
+print("your bill: $",bill)
+print("thank you....visit again...")
