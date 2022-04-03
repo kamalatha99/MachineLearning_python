@@ -43,4 +43,17 @@ print("--------------------------eye----------------------")
 i=np.eye(4)
 print(i)
 print("-------------------------full-----------------------")
+#full with element
+f1=np.full(5,6)# row size,element
+print(f1)
+f2=np.full([2,3],5)
+print(f2)
+print("--------------------------fill----------------------")
+#fill means replaces with old element
+f2.fill(7)
+print(f2)
+print("---------------------------diag----------------------")
+#creates diagonal elements
+dg=np.diag([1,2,3])
+print(dg)
 
