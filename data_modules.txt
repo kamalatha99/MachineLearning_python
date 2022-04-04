@@ -1,0 +1,39 @@
+_______Data Analysis_______
+
+@@ study oof data is called data Science
+@@ analysing the data
+@@ data means facts and useful info
+
+**data can be of many types**
+1. data in .txt,.py,.mp4..so..on
+2.in real world data is of 2 types
+	-->Quantitative
+		* mbs,kgs...
+		*** two type ***
+			-->discrete data: it is fixed data
+				E.G:die
+			-->contionuous data: it is continuously changes
+				E.g: time,weight
+	-->Qualitative 
+		* feedback
+3.statistical data
+		
+* nominal: data categorizes by names like nationality,names...
+* ordinal: data in the form of order
+* rationality: data in the form of rations(arthemitic) 
+__________________________________________________________________________________________________________________________________________
+
+________steps of data science__________
+@@ data existense
+@@ data gathering
+@@ data representation
+@@ data analysis
+
+____data gathering____
+collection of data  is possible through importing modules
+____modules____
+
+# numpy : array type and scientific manuplations
+# pandas :analysis cleaning of data
+# matlplotlib & seaborn :data visualization module
+# scikit Learn (sklean) : data representing importing datasets,build the models
