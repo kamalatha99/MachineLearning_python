@@ -1,0 +1,32 @@
+Machine learning
+ml is a study of algorithms ,which improves the performance
+of machine without using explicit programme
+it means ml learns from the previous experience
+==>  we have 3 types of algorithms
+1. supervised machine learning
+        -machine is learning under the supervision of human
+        -both input and out are provided to machine
+        (evaluation of both original and predicted outcom)
+2. unsupervised
+        -machine learns itself without help of human/third party
+        (our job is to predict the output)
+        (to find accuracy of model we build))
+       e.g: video games(ludo,chess....so on)
+3. Reinforced
+        -without environment such as automated cars
+        e.g: image recognition,text to speech,traffic detection
+
+** ALGORITHMS **
+2 types:
+   1.  regression algorithms :if data under target col is continues(float values)
+        a.linear
+        b.multi
+        c.polynomial
+        d.logistics
+   2.  classification algorithms :if data under target col is discrete(yes/on)
+        a.KNNeighbours
+        b.k means clustering
+        c.SVM
+        d.Random Forest
+        e.Decision tree
+        f.principle component analysis
